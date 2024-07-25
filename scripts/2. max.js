@@ -7,13 +7,13 @@
  * @returns {Number} 
 */
 
-function max(firstNumber, secondNumber) { 
+function max(firstNumber, secondNumber) {
     // o IF compara verifica se o primeiro número é menor que o segundo.
-    if(firstNumber < secondNumber) {
+    if (firstNumber < secondNumber) {
         // Caso sim, isso significa que o segundo é o maior numero, portanto o que devemos devolver.
         return secondNumber;
     } else {
         // Caso não, isso significa que o primeiro é o maior número, então devolvemos ele.
-        return firstNumber; 
+        return firstNumber;
     }
 }

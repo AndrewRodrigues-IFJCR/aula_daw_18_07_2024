@@ -13,8 +13,8 @@ function containsSubstring(string, substring) {
     for (let indexInString = 0; indexInString < initialPositionsInString; indexInString++) {
         let matchSubstring = true;
 
-        for (let indexInSubstring = 0; indexInSubstring < substring.length; indexInSubstring++) {            
-            if(string[indexInString + indexInSubstring] != substring[indexInSubstring]){
+        for (let indexInSubstring = 0; indexInSubstring < substring.length; indexInSubstring++) {
+            if (string[indexInString + indexInSubstring] != substring[indexInSubstring]) {
                 matchSubstring = false;
                 break;
             }

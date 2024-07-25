@@ -16,7 +16,7 @@ function getMaxValueInArray(array) {
         let numberCurrent = array[index];
 
         // O IF verifica se o número atual é maior que o maior número salvo.
-        if(numberCurrent > max) {
+        if (numberCurrent > max) {
             // Caso sim, ele passa a ser o maior número salvo agora.
             max = numberCurrent;
         }
@@ -24,5 +24,5 @@ function getMaxValueInArray(array) {
     }
 
     // Esse trecho retorna o maior número que conseguimos achar no array.
-    return max; 
+    return max;
 }

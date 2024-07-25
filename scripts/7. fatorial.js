@@ -25,6 +25,6 @@ function fatorial(number) {
         return 1;
     } else {
         // Caso não, o fatorial de um número n qualquer é n multiplicado pelo fatorial do anterior.
-        return number*fatorial(number-1); // n! = n*(n-1)!
+        return number * fatorial(number - 1); // n! = n*(n-1)!
     }
 }

@@ -7,7 +7,7 @@
 */
 
 function reverseString(string) {
-    
+
     // Esse trecho de código converte a string em um array.
     let array = string.split();
 
@@ -23,7 +23,7 @@ function reverseString(string) {
         let indexRight = lastIndex - indexLeft;
 
         let letterRight = array[indexRight];
-        let letterLeft  = array[indexLeft];
+        let letterLeft = array[indexLeft];
 
         array[indexRight] = letterLeft;
         array[indexLeft] = letterRight;

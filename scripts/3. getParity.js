@@ -20,10 +20,10 @@
 
 function getParity(number) {
     // O IF compara o valor do modulo do número por 2 e verifica se é 0.
-    if(number % 2 == 0) {
+    if (number % 2 == 0) {
         // Caso sim, retornamos even/par, isso pois quando um número é divisível por 2 ele sempre deixara resto 0.
         return 'even';
-    }else{
+    } else {
         // Caso não, retornamos odd/ímpar, isso pois quando um número não é divisível por 2 ele sempre deixara resto 1.
         return 'odd';
     }

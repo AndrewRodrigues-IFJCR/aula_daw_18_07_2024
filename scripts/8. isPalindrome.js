@@ -21,7 +21,7 @@ function isPalindrome(string) {
 
         // Caso encontrarmos uma letra que seja diferente entre os extremos paramos o programa, 
         // a string não é um palindrome, por isso retornamos falso.
-        if (string[indexLeft] != string[indexRight]){
+        if (string[indexLeft] != string[indexRight]) {
             return false;
         }
 

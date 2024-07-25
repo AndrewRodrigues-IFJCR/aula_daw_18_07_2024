@@ -4,7 +4,7 @@
 /**
  * Essa função remove duplicatas de um array de numérico qualquer.
  * @param {Array<Number>} oldArray É o array com as duplicatas que queremos remover.
- * @returns {Number}
+ * @returns {Array<Number>}
 */
 
 function removeDuplicates(oldArray) {
@@ -19,12 +19,12 @@ function removeDuplicates(oldArray) {
         for (let indexInNewArray = 0; indexInNewArray < newArray.length; indexInNewArray++) {
             let numberCurrentInNewArray = newArray[indexInNewArray];
 
-            if( numberCurrentInOldArray == numberCurrentInNewArray){
+            if (numberCurrentInOldArray == numberCurrentInNewArray) {
                 addNumberInNewArray = false;
             }
         }
 
-        if(addNumberInNewArray){
+        if (addNumberInNewArray) {
             newArray.push(numberCurrentInOldArray);
         }
     }

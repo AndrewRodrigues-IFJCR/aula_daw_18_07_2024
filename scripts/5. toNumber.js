@@ -6,6 +6,6 @@
  * @returns {Number} 
 */
 
-function toNumber(string) { 
-    return Number(string); 
+function toNumber(string) {
+    return Number(string);
 }
